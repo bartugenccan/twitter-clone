@@ -1,0 +1,37 @@
+.widgets {
+    flex: 0.3;
+    overflow-y: scroll;
+  }
+  .widgets::-webkit-scrollbar {
+    display: none;
+  }
+  .widgets-input {
+    display: flex;
+    align-items: center;
+    background-color: var(--twitter-background);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  .widgets-input > input {
+    border: none;
+    background-color: var(--twitter-background);
+  }
+  .widgets-input > input:focus {
+    outline: none;
+  }
+  .widgets-searchIcon {
+    color: gray;
+  }
+  .widgets-widgetContainer {
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #f5f8fa;
+    border-radius: 20px;
+  }
+  .widgets-widgetContainer > h2 {
+    font-size: 18px;
+    font-weight: 700;
+  }
