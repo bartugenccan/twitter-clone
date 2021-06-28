@@ -1,4 +1,4 @@
-# To Run The Projec
+# To Run The Project
 
 # 1.npm install
 
